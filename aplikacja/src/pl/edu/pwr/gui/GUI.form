@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="pl.edu.pwr.gui.GUI">
+  <grid id="27dc6" binding="panelMain" layout-manager="GridLayoutManager" row-count="5" column-count="3" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="20" y="20" width="842" height="623"/>
+    </constraints>
+    <properties>
+      <enabled value="true"/>
+      <maximumSize width="500" height="1200"/>
+      <minimumSize width="400" height="500"/>
+      <opaque value="true"/>
+      <preferredSize width="400" height="500"/>
+      <requestFocusEnabled value="true"/>
+    </properties>
+    <border type="none" title-position="2">
+      <font/>
+      <title-color color="-4473925"/>
+    </border>
+    <children>
+      <component id="cc81" class="javax.swing.JButton" binding="selectButton">
+        <constraints>
+          <grid row="3" column="0" row-span="1" col-span="3" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Choose folder"/>
+        </properties>
+      </component>
+      <component id="a545" class="javax.swing.JButton" binding="runCheckButton">
+        <constraints>
+          <grid row="4" column="0" row-span="1" col-span="3" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Check changes"/>
+        </properties>
+      </component>
+      <scrollpane id="61280">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="2" vsize-policy="7" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <component id="1610f" class="javax.swing.JList" binding="fileList">
+            <constraints/>
+            <properties/>
+          </component>
+        </children>
+      </scrollpane>
+      <component id="a6442" class="javax.swing.JLabel" binding="selectedPathLabel">
+        <constraints>
+          <grid row="2" column="0" row-span="1" col-span="3" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Selected path: "/>
+        </properties>
+      </component>
+      <scrollpane id="3e99b">
+        <constraints>
+          <grid row="1" column="2" row-span="1" col-span="1" vsize-policy="7" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <component id="99a86" class="javax.swing.JList" binding="editedFilesList">
+            <constraints/>
+            <properties/>
+          </component>
+        </children>
+      </scrollpane>
+      <component id="1f631" class="javax.swing.JLabel" binding="filesLabel">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="FIles in directory"/>
+        </properties>
+      </component>
+      <component id="b69e5" class="javax.swing.JLabel" binding="editLabel">
+        <constraints>
+          <grid row="0" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Edited files"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>

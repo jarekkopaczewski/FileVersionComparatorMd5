@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="aplikacja:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/aplikacja_jar</output-path>
+    <root id="archive" name="aplikacja.jar">
+      <element id="module-output" name="aplikacja" />
+    </root>
+  </artifact>
+</component>
